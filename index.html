@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        
+        <title>ADSactly Dice</title>
+    </head>
+
+    <body>
+        <h1 class = "header-value" id = "rolledvalue"> ADSactly Dice </h1>
+        <h1 class = "multiplier-value" id = "rolledvalue"> Current Multiplier: 0x </h1>
+        <h1 class = "dice" id = "diceValue"> </h1>
+        
+        <h3 class = "game-title"> Game Rules: </h3>
+        <p1 class = "game-description"> Want to test your luck with ADSactly Dice? You can wager Ethereum and roll your way to riches. You can select a range of values (minimum 6) and you can start guessing a number. If you guess the number correctly, you get a payout of (guess * range) = payout. If you wish to buy a multiplier you can increase your potential payout. </p1>
+        
+        <input class = "guess" placeholder = "Guess The Value">
+        <input class = "range" placeholder = "Range of values">
+        <button class="guess-the-number" id = "play"> Play </button>
+        
+        <button class="buy-multiplier" id = "play"> Buy Multiplier </button>
+        <p1 class = "multi-description"> If you wish to increase your payout, you can buy a multiplier. Every time you buy a multiplier you x2 your potential payout. Multipliers are good for 3 rolls. </p1>
+        <script src="app.js"></script>
+    </body>
+</html>
